@@ -1,0 +1,81 @@
+ 2025-05-26 16-48-55-error-POST /api/register - 400 - Password mismatch
+ 2025-05-26 16-49-25-error-POST /api/register - 400 - Password mismatch
+ 2025-05-26 16-50-02-error-POST /api/register - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-26 16-51-45-error-POST /api/login - 500 - Cannot read properties of undefined (reading 'username')
+ 2025-05-26 16-53-21-error-POST /api/login - 500 - Cannot read properties of undefined (reading 'username')
+ 2025-05-26 16-54-57-error-POST /api/login - 500 - Cannot read properties of undefined (reading 'username')
+ 2025-05-26 16-55-20-error-POST /api/login - 400 - Expected double-quoted property name in JSON at position 63
+ 2025-05-26 16-55-38-error-POST /api/login - 400 - Expected double-quoted property name in JSON at position 63
+ 2025-05-27 15-34-04-error-POST /api/login - 404 - User not found
+ 2025-05-27 15-39-16-error-POST /api/post/admin - 401 - "birth_date" must be in ISO 8601 date format
+ 2025-05-27 15-39-35-error-POST /api/post/admin - 401 - "gender" must be one of [male, female, other]
+ 2025-05-27 16-12-44-error-POST /api/login - 404 - User not found
+ 2025-05-27 16-25-45-error-POST /api/post/admin/permission - 500 - this.service.addPermission is not a function
+ 2025-05-27 16-32-52-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-33-03-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-33-07-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-33-58-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-34-16-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-34-44-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-35-35-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-36-23-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-36-41-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-38-20-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-38-26-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-38-55-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-39-14-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-42-48-error-PUT /api/put/admin/permission/2 - 500 - Cannot read properties of undefined (reading 'user_id')
+ 2025-05-27 16-50-09-error-DELETE /api/delete/admin/permission/2 - 404 - already admin_permission deleted
+ 2025-05-27 16-58-16-error-GET /api/get/info/admin - 500 - Cannot read properties of undefined (reading 'username')
+ 2025-05-27 17-10-15-error-POST /api/post/user - 400 - Expected ',' or '}' after property value in JSON at position 176
+ 2025-05-27 17-14-15-error-POST /api/post/user - 401 - no allowed create permission
+ 2025-05-27 17-15-12-error-POST /api/post/user - 401 - no allowed create permission
+ 2025-05-27 17-42-34-error-POST /api/post/user - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-27 17-45-38-error-POST /api/post/user - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-27 17-45-41-error-POST /api/post/user - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-27 17-46-08-error-POST /api/post/user - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-27 17-46-29-error-POST /api/post/user - 500 - null value in column "role" of relation "users" violates not-null constraint
+ 2025-05-27 17-53-30-error-PUT /api/put/user/9 - 500 - Cannot read properties of undefined (reading 'password')
+ 2025-05-27 17-56-23-error-DELETE /api/delete/user/4 - 404 - already deleted
+ 2025-05-27 17-56-31-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-56-31-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-56-33-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-56-34-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-56-39-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-56-47-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 17-57-48-error-DELETE /api/delete/user/9 - 404 - already deleted
+ 2025-05-27 18-08-46-error-GET /api/get/statistica/branch/1 - 500 - there is no parameter $1
+ 2025-05-27 18-14-07-error-DELETE /api/delete/branch/1 - 404 - already deleted
+ 2025-05-27 18-24-32-error-POST /api/post/transport - 401 - "img" is required
+ 2025-05-27 18-27-11-error-GET /api/get/transport/branch/1 - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-27-33-error-GET /api/get/transport/branch/traktor - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-29-53-error-GET /api/get/transport/branch/traktor - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-30-31-error-GET /api/get/transport/branch/traktor - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-30-48-error-GET /api/get/transport/branch/traktor - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-31-00-error-GET /api/get/transport/branch/1 - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-31-13-error-GET /api/get/transport/branch/1 - 500 - Cannot read properties of undefined (reading 'name')
+ 2025-05-27 18-38-16-error-PUT /api/put/transport/1 - 500 - insert or update on table "transports" violates foreign key constraint "transports_branch_id_fkey"
+ 2025-05-27 18-39-33-error-PUT /api/put/transport/1 - 401 - "branch_id" must be a number
+ 2025-05-27 18-39-40-error-PUT /api/put/transport/1 - 500 - insert or update on table "transports" violates foreign key constraint "transports_branch_id_fkey"
+ 2025-05-27 18-40-22-error-PUT /api/put/transport/1 - 500 - insert or update on table "transports" violates foreign key constraint "transports_branch_id_fkey"
+ 2025-05-27 18-43-58-error-DELETE /api/delete/transport/1 - 404 - already deleted
+ 2025-05-27 18-47-47-error-POST /api/add/permission - 400 - Expected double-quoted property name in JSON at position 86
+ 2025-05-27 18-49-00-error-POST /api/add/permission - 400 - Expected double-quoted property name in JSON at position 86
+ 2025-05-27 18-49-09-error-POST /api/add/permission - 500 - insert or update on table "permissions" violates foreign key constraint "permissions_transport_id_fkey"
+ 2025-05-27 18-58-27-error-POST /api/add/permission - 500 - insert or update on table "permissions" violates foreign key constraint "permissions_transport_id_fkey"
+ 2025-05-27 18-58-34-error-POST /api/add/permission - 500 - insert or update on table "permissions" violates foreign key constraint "permissions_transport_id_fkey"
+ 2025-05-27 18-58-36-error-POST /api/add/permission - 500 - insert or update on table "permissions" violates foreign key constraint "permissions_transport_id_fkey"
+ 2025-05-27 19-01-48-error-PUT /api/update/permission/1 - 409 - no content
+ 2025-05-27 19-02-08-error-PUT /api/update/permission/5 - 404 - user not found
+ 2025-05-27 19-02-16-error-PUT /api/update/permission/5 - 404 - user not found
+ 2025-05-27 19-02-23-error-PUT /api/update/permission/5 - 404 - user not found
+ 2025-05-27 19-02-29-error-PUT /api/update/permission/5 - 404 - user not found
+ 2025-05-27 19-03-39-error-PUT /api/update/permission/5 - 404 - user not found
+ 2025-05-27 19-06-17-error-GET /api/one/permission/1 - 404 - user's permission not found
+ 2025-05-27 19-14-19-error-GET /api/one/permission/1 - 404 - user's permission not found
+ 2025-05-27 19-14-53-error-GET /api/one/permission/1 - 404 - user's permission not found
+ 2025-05-27 19-16-50-error-DELETE /api/delete/permision/1] - 500 - invalid input syntax for type integer: "1]"
+ 2025-05-27 19-17-04-error-DELETE /api/delete/permision/1 - 409 - No Content
+ 2025-05-27 19-17-40-error-DELETE /api/delete/permision/5 - 404 - user not found
+ 2025-05-27 19-17-56-error-DELETE /api/delete/permision/2 - 404 - user not found
+ 2025-05-27 19-18-39-error-DELETE /api/delete/permision/2 - 404 - user not found

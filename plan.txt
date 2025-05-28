@@ -1,0 +1,78 @@
+TRANSPORT SALE
+
+[Data Model]
+
+* branches		
+	name, time, address
+	
+* transports
+	branch, model, color, img, price, time
+	
+* staffs
+	branch, username, password, birth-date, gender
+	
+*permissions
+	staff, permissionModel, permission(actions)
+	
+* permissions
+	* create
+	* read
+	* delete
+	* update
+
+
+
+[API]
+    * private = token
+    * public  = ruxsatsiz yoki tokensiz bajarish mumkin.
+    * permission = biron amal bajarish uchun ruxsati bo'lishi kerak
+
+    * register (username, branch, password, repeat_password, birthdate, gender, role) -> token | public
+    * login    (username, password)      -> token | public
+
+    * addPermission                      private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * deletePermission                   private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * changePermission                   private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * allPermissions                     private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * ownPermissions   		             private
+
+    * transports (branch, search)       private vs permission || SuperAdmin || Admin
+    * addTransport                      private vs permission || SuperAdmin || Admin
+    * changeTransport                   private vs permission || SuperAdmin || Admin
+    * deleteTransport                   private vs permission || SuperAdmin || Admin
+
+    * addBranch                        private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * changeBranch                     private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * deleteBranch                     private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * branches                         private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * branch/allInfo{single}           private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    
+    
+    
+    * staffs                           private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * staff/info{single}               private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * deleteStaff                      private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+    * changeStaff                      private (SuperAdmin || Admin, agar ruxsati bo'lsa)
+
+    * addAdmin                          private (SuperAdmin)  
+    * admins                            private (SuperAdmin) 
+    * admin/info{single}                private (SuperAdmin) 
+    * deleteAdmin                       private (SuperAdmin)   
+
+    * addminPermission
+        addPermission                   private (SuperAdmin) 
+        addAdmin                        private (SuperAdmin) 
+        branchControl                   private (SuperAdmin) 
+
+bugun qilaman
+
+[Talablar]
+    * Token -> Headers dan yuborilishi shart, ustunlik beradi [ip,user-agent]  headers.Authorizetion
+    * JsonWebToken
+    * Validation -> Joi
+    * sha256, bcrypt, md5
+    * middleware
+    * Error Handler
+    * winston logger
+    * Custom Error
+    * checktoken
